@@ -1,0 +1,7 @@
+name: Canary
+version: '${project.version}'
+main: com.canary.Canary
+api-version: 1.18
+authors: [ Canary233 ]
+description: Canary233's Server Plugin
+website: Github.com/Canary233
