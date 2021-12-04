@@ -8,6 +8,7 @@ public final class Canary extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(new CreeperNotBoom(),this);
+        getServer().getPluginManager().registerEvents((new JoinMessage()),this);
         getLogger().info("§b插件已开启");
     }
 
