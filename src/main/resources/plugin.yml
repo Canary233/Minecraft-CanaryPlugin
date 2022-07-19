@@ -1,0 +1,6 @@
+name: CanaryPlugin
+version: '${version}'
+main: canary.canaryplugin.CanaryPlugin
+api-version: 1.19
+authors: [ Canary233 ]
+description: A bukkit plugin for Canary233's Server
