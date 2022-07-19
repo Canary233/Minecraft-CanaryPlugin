@@ -7,6 +7,7 @@ public final class CanaryPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new CreeperNotExplode(),this);
+        getServer().getPluginManager().registerEvents(new JoinMessage(),this);
         // Plugin startup logic
 
     }
